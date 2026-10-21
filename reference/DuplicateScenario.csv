@@ -1,0 +1,3 @@
+﻿Scenario,SourceRows,RawAmountUnits4,RawSignedGBP,SalesGBP,CancellationGBP,BalanceGBP,SalesInvoiceIDs,CustomerSalesIDs,ReviewRows
+Main: retain all rows,541909,97477479340,9747747.934,10271433.063,478724.18,9792708.883,19773,4334,232181
+Alternative: first exact record only,536641,97260069540,9726006.954,10247219.323,475901.16,9771318.163,19773,4334,226913

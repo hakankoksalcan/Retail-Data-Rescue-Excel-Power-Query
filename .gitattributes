@@ -1,0 +1,8 @@
+# Preserve binary deliverables and exact source bytes.
+*.xlsx binary
+*.pdf binary
+*.png binary
+*.gz binary
+# CSV may contain intentional whitespace in source fields.
+*.csv -text whitespace=cr-at-eol
+*.pq text eol=lf

@@ -1,0 +1,15 @@
+# Local dependencies and generated test material
+.venv/
+node_modules/
+.cache/
+.npm-cache/
+__pycache__/
+*.pyc
+~$*.xlsx
+.DS_Store
+/tests/TEST_ONLY_*.xlsx
+/reference/ClassifiedTransactions.csv.gz
+/reference/Reference_Workbook.xlsx
+/validation/*_render.png
+# Earlier file-transfer helpers are unrelated to the portfolio release.
+/delivery_downloads/

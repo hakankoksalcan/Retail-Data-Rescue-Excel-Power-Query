@@ -1,0 +1,1093 @@
+{
+  "checked_at_utc": "2026-10-21T12:10:21.456402+00:00",
+  "scope": "Source/artifact/reference validation; no full-model Excel runtime execution",
+  "checks": [
+    {
+      "Control": "Original source SHA256",
+      "Expected": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "Actual": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "Status": "PASS",
+      "Scope": "Original source"
+    },
+    {
+      "Control": "Original column schema",
+      "Expected": [
+        "InvoiceNo",
+        "StockCode",
+        "Description",
+        "Quantity",
+        "InvoiceDate",
+        "UnitPrice",
+        "CustomerID",
+        "Country"
+      ],
+      "Actual": [
+        "InvoiceNo",
+        "StockCode",
+        "Description",
+        "Quantity",
+        "InvoiceDate",
+        "UnitPrice",
+        "CustomerID",
+        "Country"
+      ],
+      "Status": "PASS",
+      "Scope": "Original source"
+    },
+    {
+      "Control": "Original row count",
+      "Expected": 541909,
+      "Actual": 541909,
+      "Status": "PASS",
+      "Scope": "Original source"
+    },
+    {
+      "Control": "Original null counts",
+      "Expected": {
+        "InvoiceNo": 0,
+        "StockCode": 0,
+        "Description": 1454,
+        "Quantity": 0,
+        "InvoiceDate": 0,
+        "UnitPrice": 0,
+        "CustomerID": 135080,
+        "Country": 0
+      },
+      "Actual": {
+        "InvoiceNo": 0,
+        "StockCode": 0,
+        "Description": 1454,
+        "Quantity": 0,
+        "InvoiceDate": 0,
+        "UnitPrice": 0,
+        "CustomerID": 135080,
+        "Country": 0
+      },
+      "Status": "PASS",
+      "Scope": "Original source"
+    },
+    {
+      "Control": "Native source dates",
+      "Expected": 541909,
+      "Actual": 541909,
+      "Status": "PASS",
+      "Scope": "Original source"
+    },
+    {
+      "Control": "Whole-number native quantities",
+      "Expected": 541909,
+      "Actual": 541909,
+      "Status": "PASS",
+      "Scope": "Original source"
+    },
+    {
+      "Control": "Native numeric source prices",
+      "Expected": 541909,
+      "Actual": 541909,
+      "Status": "PASS",
+      "Scope": "Original source"
+    },
+    {
+      "Control": "Observed first timestamp",
+      "Expected": "2010-12-01T08:26:00",
+      "Actual": "2010-12-01T08:26:00",
+      "Status": "PASS",
+      "Scope": "Original source"
+    },
+    {
+      "Control": "Observed last timestamp",
+      "Expected": "2011-12-09T12:50:00",
+      "Actual": "2011-12-09T12:50:00",
+      "Status": "PASS",
+      "Scope": "Original source"
+    },
+    {
+      "Control": "Additional exact records",
+      "Expected": 5268,
+      "Actual": 5268,
+      "Status": "PASS",
+      "Scope": "Original source"
+    },
+    {
+      "Control": "Zero price rows",
+      "Expected": 2515,
+      "Actual": 2515,
+      "Status": "PASS",
+      "Scope": "Original source"
+    },
+    {
+      "Control": "Negative price rows",
+      "Expected": 2,
+      "Actual": 2,
+      "Status": "PASS",
+      "Scope": "Original source"
+    },
+    {
+      "Control": "Independent raw integer amount",
+      "Expected": 97477479340,
+      "Actual": 97477479340,
+      "Status": "PASS",
+      "Scope": "Original source"
+    },
+    {
+      "Control": "Executed reference failures",
+      "Expected": 0,
+      "Actual": 0,
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "Executed reference passes",
+      "Expected": 30,
+      "Actual": 30,
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "Explicit full-model Excel acceptance pending",
+      "Expected": 1,
+      "Actual": 1,
+      "Status": "PASS",
+      "Scope": "Status coverage"
+    },
+    {
+      "Control": "Class rows reconcile",
+      "Expected": 541909,
+      "Actual": 541909,
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "Class amounts reconcile in integer units",
+      "Expected": 97477479340,
+      "Actual": 97477479340,
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "Five exclusive class row counts",
+      "Expected": {
+        "MerchandiseSale": 527761,
+        "MerchandiseCancellation": 8704,
+        "SpecialOperation": 2946,
+        "ZeroPriceAdjustment": 1335,
+        "UnresolvedReview": 1163
+      },
+      "Actual": {
+        "MerchandiseSale": 527761,
+        "MerchandiseCancellation": 8704,
+        "SpecialOperation": 2946,
+        "ZeroPriceAdjustment": 1335,
+        "UnresolvedReview": 1163
+      },
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "Workbook opens on Dashboard",
+      "Expected": "Dashboard",
+      "Actual": "Dashboard",
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "First worksheet Dashboard",
+      "Expected": "Dashboard",
+      "Actual": "Dashboard",
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Settings table retained",
+      "Expected": [
+        "tblSource"
+      ],
+      "Actual": [
+        "tblSource"
+      ],
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Source path configured sample",
+      "Expected": "C:\\RetailDataRescue\\raw\\Online Retail.xlsx",
+      "Actual": "C:\\RetailDataRescue\\raw\\Online Retail.xlsx",
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "SourceCheck saved results",
+      "Expected": [
+        [
+          "Kontrol",
+          "Sonu\u00e7"
+        ],
+        [
+          "Veri sat\u0131r\u0131 say\u0131s\u0131",
+          541909
+        ],
+        [
+          "S\u00fctun say\u0131s\u0131",
+          8
+        ]
+      ],
+      "Actual": [
+        [
+          "Kontrol",
+          "Sonu\u00e7"
+        ],
+        [
+          "Veri sat\u0131r\u0131 say\u0131s\u0131",
+          541909
+        ],
+        [
+          "S\u00fctun say\u0131s\u0131",
+          8
+        ]
+      ],
+      "Status": "PASS",
+      "Scope": "Saved desktop Excel audit"
+    },
+    {
+      "Control": "Missing-values saved results",
+      "Expected": {
+        "InvoiceNo": 0,
+        "StockCode": 0,
+        "Description": 1454,
+        "Quantity": 0,
+        "InvoiceDate": 0,
+        "UnitPrice": 0,
+        "CustomerID": 135080,
+        "Country": 0
+      },
+      "Actual": {
+        "InvoiceNo": 0,
+        "StockCode": 0,
+        "Description": 1454,
+        "Quantity": 0,
+        "InvoiceDate": 0,
+        "UnitPrice": 0,
+        "CustomerID": 135080,
+        "Country": 0
+      },
+      "Status": "PASS",
+      "Scope": "Saved desktop Excel audit"
+    },
+    {
+      "Control": "Dashboard default filters",
+      "Expected": [
+        "All",
+        "2010-12",
+        "2011-12"
+      ],
+      "Actual": [
+        "All",
+        "2010-12",
+        "2011-12"
+      ],
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Saved dashboard ReportableSalesGBP",
+      "Expected": 10271433.063,
+      "Actual": 10271433.062999995,
+      "Status": "PASS",
+      "Scope": "Saved formula result vs fresh reference"
+    },
+    {
+      "Control": "Live Excel formula B9",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Saved dashboard MerchandiseCancellationGBP",
+      "Expected": 478724.18,
+      "Actual": 478724.18,
+      "Status": "PASS",
+      "Scope": "Saved formula result vs fresh reference"
+    },
+    {
+      "Control": "Live Excel formula F9",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Saved dashboard MerchandiseBalanceGBP",
+      "Expected": 9792708.883,
+      "Actual": 9792708.882999996,
+      "Status": "PASS",
+      "Scope": "Saved formula result vs fresh reference"
+    },
+    {
+      "Control": "Live Excel formula J9",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Saved dashboard EligibleSalesInvoiceIDs",
+      "Expected": 19773,
+      "Actual": 19773,
+      "Status": "PASS",
+      "Scope": "Saved formula result vs fresh reference"
+    },
+    {
+      "Control": "Live Excel formula B13",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Saved dashboard KnownCustomerRowCoverage",
+      "Expected": 0.7509838733820802,
+      "Actual": 0.7509838733820802,
+      "Status": "PASS",
+      "Scope": "Saved formula result vs fresh reference"
+    },
+    {
+      "Control": "Live Excel formula F13",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Saved dashboard ReviewRows",
+      "Expected": 232181,
+      "Actual": 232181,
+      "Status": "PASS",
+      "Scope": "Saved formula result vs fresh reference"
+    },
+    {
+      "Control": "Live Excel formula J13",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Scoped status visible",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Unexpected visible formula errors",
+      "Expected": [],
+      "Actual": [],
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Dashboard chart named ranges",
+      "Expected": [
+        "rdrCancels",
+        "rdrMonths",
+        "rdrSales"
+      ],
+      "Actual": [
+        "rdrCancels",
+        "rdrMonths",
+        "rdrSales"
+      ],
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Native dashboard chart count",
+      "Expected": 3,
+      "Actual": 3,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table row count KPI",
+      "Expected": 16,
+      "Actual": 16,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values KPI.Value",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table row count Monthly",
+      "Expected": 13,
+      "Actual": 13,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Monthly.SourceRows",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Monthly.SalesRows",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Monthly.SalesInvoiceIDs",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Monthly.SalesGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Monthly.CancellationGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Monthly.BalanceGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Monthly.ReviewRows",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table row count Country",
+      "Expected": 38,
+      "Actual": 38,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Country.SalesGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Country.CancellationGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Country.BalanceGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Country.SalesRows",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Country.SalesInvoiceIDs",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table row count Product",
+      "Expected": 3922,
+      "Actual": 3922,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Identifier values Product.StockCode",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Product.SalesGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Product.CancellationGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Product.BalanceGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Product.SalesRows",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Product.SalesInvoiceIDs",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table row count Reconciliation",
+      "Expected": 5,
+      "Actual": 5,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Reconciliation.Rows",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Reconciliation.InvoiceIDs",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Reconciliation.AmountUnits4",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Reconciliation.SignedAmountGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Reconciliation.ReviewFlagRows",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table row count Bridge",
+      "Expected": 5,
+      "Actual": 5,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Bridge.ChangeGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Bridge.BalanceGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table row count Quality",
+      "Expected": 15,
+      "Actual": 15,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Quality.Rows",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table row count Controls",
+      "Expected": 31,
+      "Actual": 31,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table row count DuplicateScenario",
+      "Expected": 2,
+      "Actual": 2,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values DuplicateScenario.SourceRows",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values DuplicateScenario.RawAmountUnits4",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values DuplicateScenario.RawSignedGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values DuplicateScenario.SalesGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values DuplicateScenario.CancellationGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values DuplicateScenario.BalanceGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values DuplicateScenario.SalesInvoiceIDs",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values DuplicateScenario.CustomerSalesIDs",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values DuplicateScenario.ReviewRows",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table row count ProductDictionary",
+      "Expected": 4070,
+      "Actual": 4070,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Identifier values ProductDictionary.StockCode",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values ProductDictionary.DescriptionVariantCount",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values ProductDictionary.TrimmedVariantCount",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values ProductDictionary.NormalizedVariantCount",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values ProductDictionary.SourceRows",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table row count SpecialOperations",
+      "Expected": 16,
+      "Actual": 16,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Identifier values SpecialOperations.StockCode",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values SpecialOperations.Rows",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values SpecialOperations.SignedGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values SpecialOperations.SourceRowExample",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table row count Customers",
+      "Expected": 4334,
+      "Actual": 4334,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Identifier values Customers.CustomerID",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Customers.SalesRows",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Customers.SalesGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values Customers.SalesInvoiceIDs",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table row count DashboardData",
+      "Expected": 314,
+      "Actual": 314,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values DashboardData.SalesGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values DashboardData.CancellationGBP",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values DashboardData.SalesRows",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values DashboardData.KnownCustomerSalesRows",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values DashboardData.SalesInvoiceIDs",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Table values DashboardData.ReviewRows",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "XLSX archive CRC",
+      "Expected": null,
+      "Actual": null,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Embedded query connection names",
+      "Expected": [
+        "qMissingValues",
+        "qRawSource",
+        "qSourceCheck",
+        "qTypedSource"
+      ],
+      "Actual": [
+        "qMissingValues",
+        "qRawSource",
+        "qSourceCheck",
+        "qTypedSource"
+      ],
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Embedded formula names",
+      "Expected": [
+        "qMissingValues",
+        "qRawSource",
+        "qSourceCheck",
+        "qTypedSource"
+      ],
+      "Actual": [
+        "qMissingValues",
+        "qRawSource",
+        "qSourceCheck",
+        "qTypedSource"
+      ],
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Exact M export qSourceCheck",
+      "Expected": "let\n    Ayarlar = Excel.CurrentWorkbook(){[Name=\"tblSource\"]}[Content]{0},\n    DosyaYolu = Text.From(Ayarlar[SourcePath]),\n\n    Kaynak = Excel.Workbook(\n        File.Contents(DosyaYolu),\n        null,\n        true\n    ),\n\n    Sayfa = Kaynak{[Item=\"Online Retail\", Kind=\"Sheet\"]}[Data],\n\n    Basliklar = Table.PromoteHeaders(\n        Sayfa,\n        [PromoteAllScalars=true]\n    ),\n\n    Kontrol = #table(\n        {\"Kontrol\", \"Sonu\u00e7\"},\n        {\n            {\"Veri sat\u0131r\u0131 say\u0131s\u0131\", Table.RowCount(Basliklar)},\n            {\"S\u00fctun say\u0131s\u0131\", Table.ColumnCount(Basliklar)}\n        }\n    )\nin\n    Kontrol\n",
+      "Actual": "let\n    Ayarlar = Excel.CurrentWorkbook(){[Name=\"tblSource\"]}[Content]{0},\n    DosyaYolu = Text.From(Ayarlar[SourcePath]),\n\n    Kaynak = Excel.Workbook(\n        File.Contents(DosyaYolu),\n        null,\n        true\n    ),\n\n    Sayfa = Kaynak{[Item=\"Online Retail\", Kind=\"Sheet\"]}[Data],\n\n    Basliklar = Table.PromoteHeaders(\n        Sayfa,\n        [PromoteAllScalars=true]\n    ),\n\n    Kontrol = #table(\n        {\"Kontrol\", \"Sonu\u00e7\"},\n        {\n            {\"Veri sat\u0131r\u0131 say\u0131s\u0131\", Table.RowCount(Basliklar)},\n            {\"S\u00fctun say\u0131s\u0131\", Table.ColumnCount(Basliklar)}\n        }\n    )\nin\n    Kontrol\n",
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Exact M export qRawSource",
+      "Expected": "let\n    Ayarlar = Excel.CurrentWorkbook(){[Name=\"tblSource\"]}[Content]{0},\n    DosyaYolu = Text.From(Ayarlar[SourcePath]),\n\n    Kaynak = Excel.Workbook(\n        File.Contents(DosyaYolu),\n        null,\n        true\n    ),\n\n    Sayfa = Kaynak{[Item=\"Online Retail\", Kind=\"Sheet\"]}[Data],\n\n    Basliklar = Table.PromoteHeaders(\n        Sayfa,\n        [PromoteAllScalars=true]\n    ),\n\n    KaynakSatiri = Table.AddIndexColumn(\n        Basliklar,\n        \"SourceRow\",\n        2,\n        1,\n        Int64.Type\n    )\nin\n    KaynakSatiri\n",
+      "Actual": "let\n    Ayarlar = Excel.CurrentWorkbook(){[Name=\"tblSource\"]}[Content]{0},\n    DosyaYolu = Text.From(Ayarlar[SourcePath]),\n\n    Kaynak = Excel.Workbook(\n        File.Contents(DosyaYolu),\n        null,\n        true\n    ),\n\n    Sayfa = Kaynak{[Item=\"Online Retail\", Kind=\"Sheet\"]}[Data],\n\n    Basliklar = Table.PromoteHeaders(\n        Sayfa,\n        [PromoteAllScalars=true]\n    ),\n\n    KaynakSatiri = Table.AddIndexColumn(\n        Basliklar,\n        \"SourceRow\",\n        2,\n        1,\n        Int64.Type\n    )\nin\n    KaynakSatiri\n",
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Exact M export qMissingValues",
+      "Expected": "let\n    Alanlar = {\n        \"InvoiceNo\", \"StockCode\", \"Description\",\n        \"Quantity\", \"InvoiceDate\", \"UnitPrice\",\n        \"CustomerID\", \"Country\"\n    },\n\n    Kaynak = Table.SelectColumns(qRawSource, Alanlar),\n    SatirSayisi = Table.RowCount(Kaynak),\n\n    Kayitlar = List.Transform(\n        Alanlar,\n        (Alan) => [\n            Field = Alan,\n            MissingRows =\n                SatirSayisi -\n                List.NonNullCount(Table.Column(Kaynak, Alan))\n        ]\n    ),\n\n    Sonuc = Table.FromRecords(Kayitlar),\n\n    Tipler = Table.TransformColumnTypes(\n        Sonuc,\n        {\n            {\"Field\", type text},\n            {\"MissingRows\", Int64.Type}\n        }\n    )\nin\n    Tipler\n",
+      "Actual": "let\n    Alanlar = {\n        \"InvoiceNo\", \"StockCode\", \"Description\",\n        \"Quantity\", \"InvoiceDate\", \"UnitPrice\",\n        \"CustomerID\", \"Country\"\n    },\n\n    Kaynak = Table.SelectColumns(qRawSource, Alanlar),\n    SatirSayisi = Table.RowCount(Kaynak),\n\n    Kayitlar = List.Transform(\n        Alanlar,\n        (Alan) => [\n            Field = Alan,\n            MissingRows =\n                SatirSayisi -\n                List.NonNullCount(Table.Column(Kaynak, Alan))\n        ]\n    ),\n\n    Sonuc = Table.FromRecords(Kayitlar),\n\n    Tipler = Table.TransformColumnTypes(\n        Sonuc,\n        {\n            {\"Field\", type text},\n            {\"MissingRows\", Int64.Type}\n        }\n    )\nin\n    Tipler\n",
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Exact M export qTypedSource",
+      "Expected": "let\n    Kaynak = qRawSource,\n\n    HamFatura = Table.DuplicateColumn(\n        Kaynak,\n        \"InvoiceNo\",\n        \"InvoiceNo_Raw\"\n    ),\n\n    HamUrun = Table.DuplicateColumn(\n        HamFatura,\n        \"StockCode\",\n        \"StockCode_Raw\"\n    ),\n\n    HamMusteri = Table.DuplicateColumn(\n        HamUrun,\n        \"CustomerID\",\n        \"CustomerID_Raw\"\n    ),\n\n    Tipler = Table.TransformColumnTypes(\n        HamMusteri,\n        {\n            {\"InvoiceNo\", type text},\n            {\"StockCode\", type text},\n            {\"CustomerID\", type text},\n            {\"Quantity\", type number},\n            {\"UnitPrice\", type number},\n            {\"InvoiceDate\", type datetime},\n            {\"Country\", type text}\n        },\n        \"en-GB\"\n    )\nin\n    Tipler\n",
+      "Actual": "let\n    Kaynak = qRawSource,\n\n    HamFatura = Table.DuplicateColumn(\n        Kaynak,\n        \"InvoiceNo\",\n        \"InvoiceNo_Raw\"\n    ),\n\n    HamUrun = Table.DuplicateColumn(\n        HamFatura,\n        \"StockCode\",\n        \"StockCode_Raw\"\n    ),\n\n    HamMusteri = Table.DuplicateColumn(\n        HamUrun,\n        \"CustomerID\",\n        \"CustomerID_Raw\"\n    ),\n\n    Tipler = Table.TransformColumnTypes(\n        HamMusteri,\n        {\n            {\"InvoiceNo\", type text},\n            {\"StockCode\", type text},\n            {\"CustomerID\", type text},\n            {\"Quantity\", type number},\n            {\"UnitPrice\", type number},\n            {\"InvoiceDate\", type datetime},\n            {\"Country\", type text}\n        },\n        \"en-GB\"\n    )\nin\n    Tipler\n",
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Embedded query table count",
+      "Expected": 2,
+      "Actual": 2,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Local Desktop presentation path removed",
+      "Expected": false,
+      "Actual": false,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Reference refresh check count",
+      "Expected": 19,
+      "Actual": 19,
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Reference refresh failures",
+      "Expected": 0,
+      "Actual": 0,
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "M files parsed",
+      "Expected": 24,
+      "Actual": 24,
+      "Status": "PASS",
+      "Scope": "M syntax only"
+    },
+    {
+      "Control": "M syntax failures",
+      "Expected": 0,
+      "Actual": 0,
+      "Status": "PASS",
+      "Scope": "M syntax only"
+    },
+    {
+      "Control": "M parser evidence matches current files",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "M syntax only"
+    },
+    {
+      "Control": "Preserved query package",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Review register rows",
+      "Expected": 232181,
+      "Actual": 232181,
+      "Status": "PASS",
+      "Scope": "Review export"
+    },
+    {
+      "Control": "Review register unique RecordID",
+      "Expected": 232181,
+      "Actual": 232181,
+      "Status": "PASS",
+      "Scope": "Review export"
+    },
+    {
+      "Control": "Review register source membership",
+      "Expected": 0,
+      "Actual": 0,
+      "Status": "PASS",
+      "Scope": "Review export"
+    },
+    {
+      "Control": "Review register flagged records",
+      "Expected": 0,
+      "Actual": 0,
+      "Status": "PASS",
+      "Scope": "Review export"
+    },
+    {
+      "Control": "One-page Client_Handover.pdf",
+      "Expected": 1,
+      "Actual": 1,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "One-page Dashboard_Reference.pdf",
+      "Expected": 1,
+      "Actual": 1,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Broken relative documentation links",
+      "Expected": [],
+      "Actual": [],
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "Manifest hash mismatches",
+      "Expected": [],
+      "Actual": [],
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "No file exceeds GitHub regular limit",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "No dependencies/caches/test XLSX in manifest",
+      "Expected": [],
+      "Actual": [],
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    },
+    {
+      "Control": "No initial transfer helpers in manifest",
+      "Expected": [],
+      "Actual": [],
+      "Status": "PASS",
+      "Scope": "Publication artifacts"
+    }
+  ],
+  "all_executed_checks_passed": true,
+  "full_reporting_model_excel_acceptance": "PENDING",
+  "desktop_excel_audit_evidence": "User-supplied workbook and confirmations"
+}

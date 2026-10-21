@@ -1,0 +1,19 @@
+{
+  "reported_on": "2026-10-21",
+  "environment": "Windows 11, Microsoft Excel 2021 desktop",
+  "evidence": "User reported that all six filtered dashboard values matched the supplied expectations.",
+  "filters": {"Country": "United Kingdom", "StartMonth": "2011-01", "EndMonth": "2011-03"},
+  "expected_values_confirmed_by_user": {
+    "ReportableSalesGBP": 1538974.69,
+    "MerchandiseCancellationsGBP": 104879.87,
+    "MerchandiseBalanceGBP": 1434094.82,
+    "EligibleSalesInvoices": 3259,
+    "KnownCustomerRowCoverageDisplayed": "67.8%",
+    "RowsWithReviewFlags": 42749
+  },
+  "excel_formula_check": "PASS_USER_REPORTED",
+  "chart_filter_response": "NOT_SEPARATELY_CONFIRMED",
+  "power_query_execution": "PENDING",
+  "repeat_refresh": "PENDING",
+  "new_source_refresh": "PENDING"
+}

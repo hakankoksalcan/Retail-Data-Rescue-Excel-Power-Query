@@ -1,0 +1,375 @@
+﻿Control,Expected,Actual,Status,Scope
+Original source SHA256,43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d,43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d,PASS,Original source
+Original column schema,"['InvoiceNo', 'StockCode', 'Description', 'Quantity', 'InvoiceDate', 'UnitPrice', 'CustomerID', 'Country']","['InvoiceNo', 'StockCode', 'Description', 'Quantity', 'InvoiceDate', 'UnitPrice', 'CustomerID', 'Country']",PASS,Original source
+Original row count,541909,541909,PASS,Original source
+Original null counts,"{'InvoiceNo': 0, 'StockCode': 0, 'Description': 1454, 'Quantity': 0, 'InvoiceDate': 0, 'UnitPrice': 0, 'CustomerID': 135080, 'Country': 0}","{'InvoiceNo': 0, 'StockCode': 0, 'Description': 1454, 'Quantity': 0, 'InvoiceDate': 0, 'UnitPrice': 0, 'CustomerID': 135080, 'Country': 0}",PASS,Original source
+Native source dates,541909,541909,PASS,Original source
+Whole-number native quantities,541909,541909,PASS,Original source
+Native numeric source prices,541909,541909,PASS,Original source
+Observed first timestamp,2010-12-01T08:26:00,2010-12-01T08:26:00,PASS,Original source
+Observed last timestamp,2011-12-09T12:50:00,2011-12-09T12:50:00,PASS,Original source
+Additional exact records,5268,5268,PASS,Original source
+Zero price rows,2515,2515,PASS,Original source
+Negative price rows,2,2,PASS,Original source
+Independent raw integer amount,97477479340,97477479340,PASS,Original source
+Executed reference failures,0,0,PASS,Python reference
+Executed reference passes,30,30,PASS,Python reference
+Explicit full-model Excel acceptance pending,1,1,PASS,Status coverage
+Class rows reconcile,541909,541909,PASS,Python reference
+Class amounts reconcile in integer units,97477479340,97477479340,PASS,Python reference
+Five exclusive class row counts,"{'MerchandiseSale': 527761, 'MerchandiseCancellation': 8704, 'SpecialOperation': 2946, 'ZeroPriceAdjustment': 1335, 'UnresolvedReview': 1163}","{'MerchandiseSale': 527761, 'MerchandiseCancellation': 8704, 'SpecialOperation': 2946, 'ZeroPriceAdjustment': 1335, 'UnresolvedReview': 1163}",PASS,Python reference
+Workbook opens on Dashboard,Dashboard,Dashboard,PASS,Publication artifacts
+First worksheet Dashboard,Dashboard,Dashboard,PASS,Publication artifacts
+Settings table retained,['tblSource'],['tblSource'],PASS,Publication artifacts
+Source path configured sample,C:\RetailDataRescue\raw\Online Retail.xlsx,C:\RetailDataRescue\raw\Online Retail.xlsx,PASS,Publication artifacts
+SourceCheck saved results,"[('Kontrol', 'Sonuç'), ('Veri satırı sayısı', 541909), ('Sütun sayısı', 8)]","[('Kontrol', 'Sonuç'), ('Veri satırı sayısı', 541909), ('Sütun sayısı', 8)]",PASS,Saved desktop Excel audit
+Missing-values saved results,"{'InvoiceNo': 0, 'StockCode': 0, 'Description': 1454, 'Quantity': 0, 'InvoiceDate': 0, 'UnitPrice': 0, 'CustomerID': 135080, 'Country': 0}","{'InvoiceNo': 0, 'StockCode': 0, 'Description': 1454, 'Quantity': 0, 'InvoiceDate': 0, 'UnitPrice': 0, 'CustomerID': 135080, 'Country': 0}",PASS,Saved desktop Excel audit
+Dashboard default filters,"['All', '2010-12', '2011-12']","['All', '2010-12', '2011-12']",PASS,Publication artifacts
+Saved dashboard ReportableSalesGBP,10271433.063,10271433.062999995,PASS,Saved formula result vs fresh reference
+Live Excel formula B9,True,True,PASS,Publication artifacts
+Saved dashboard MerchandiseCancellationGBP,478724.18,478724.18,PASS,Saved formula result vs fresh reference
+Live Excel formula F9,True,True,PASS,Publication artifacts
+Saved dashboard MerchandiseBalanceGBP,9792708.883,9792708.882999996,PASS,Saved formula result vs fresh reference
+Live Excel formula J9,True,True,PASS,Publication artifacts
+Saved dashboard EligibleSalesInvoiceIDs,19773,19773,PASS,Saved formula result vs fresh reference
+Live Excel formula B13,True,True,PASS,Publication artifacts
+Saved dashboard KnownCustomerRowCoverage,0.7509838733820802,0.7509838733820802,PASS,Saved formula result vs fresh reference
+Live Excel formula F13,True,True,PASS,Publication artifacts
+Saved dashboard ReviewRows,232181,232181,PASS,Saved formula result vs fresh reference
+Live Excel formula J13,True,True,PASS,Publication artifacts
+Scoped status visible,True,True,PASS,Publication artifacts
+Unexpected visible formula errors,[],[],PASS,Publication artifacts
+Dashboard chart named ranges,"['rdrCancels', 'rdrMonths', 'rdrSales']","['rdrCancels', 'rdrMonths', 'rdrSales']",PASS,Publication artifacts
+Native dashboard chart count,3,3,PASS,Publication artifacts
+Table row count KPI,16,16,PASS,Publication artifacts
+Table values KPI.Value,True,True,PASS,Publication artifacts
+Table row count Monthly,13,13,PASS,Publication artifacts
+Table values Monthly.SourceRows,True,True,PASS,Publication artifacts
+Table values Monthly.SalesRows,True,True,PASS,Publication artifacts
+Table values Monthly.SalesInvoiceIDs,True,True,PASS,Publication artifacts
+Table values Monthly.SalesGBP,True,True,PASS,Publication artifacts
+Table values Monthly.CancellationGBP,True,True,PASS,Publication artifacts
+Table values Monthly.BalanceGBP,True,True,PASS,Publication artifacts
+Table values Monthly.ReviewRows,True,True,PASS,Publication artifacts
+Table row count Country,38,38,PASS,Publication artifacts
+Table values Country.SalesGBP,True,True,PASS,Publication artifacts
+Table values Country.CancellationGBP,True,True,PASS,Publication artifacts
+Table values Country.BalanceGBP,True,True,PASS,Publication artifacts
+Table values Country.SalesRows,True,True,PASS,Publication artifacts
+Table values Country.SalesInvoiceIDs,True,True,PASS,Publication artifacts
+Table row count Product,3922,3922,PASS,Publication artifacts
+Identifier values Product.StockCode,True,True,PASS,Publication artifacts
+Table values Product.SalesGBP,True,True,PASS,Publication artifacts
+Table values Product.CancellationGBP,True,True,PASS,Publication artifacts
+Table values Product.BalanceGBP,True,True,PASS,Publication artifacts
+Table values Product.SalesRows,True,True,PASS,Publication artifacts
+Table values Product.SalesInvoiceIDs,True,True,PASS,Publication artifacts
+Table row count Reconciliation,5,5,PASS,Publication artifacts
+Table values Reconciliation.Rows,True,True,PASS,Publication artifacts
+Table values Reconciliation.InvoiceIDs,True,True,PASS,Publication artifacts
+Table values Reconciliation.AmountUnits4,True,True,PASS,Publication artifacts
+Table values Reconciliation.SignedAmountGBP,True,True,PASS,Publication artifacts
+Table values Reconciliation.ReviewFlagRows,True,True,PASS,Publication artifacts
+Table row count Bridge,5,5,PASS,Publication artifacts
+Table values Bridge.ChangeGBP,True,True,PASS,Publication artifacts
+Table values Bridge.BalanceGBP,True,True,PASS,Publication artifacts
+Table row count Quality,15,15,PASS,Publication artifacts
+Table values Quality.Rows,True,True,PASS,Publication artifacts
+Table row count Controls,31,31,PASS,Publication artifacts
+Table row count DuplicateScenario,2,2,PASS,Publication artifacts
+Table values DuplicateScenario.SourceRows,True,True,PASS,Publication artifacts
+Table values DuplicateScenario.RawAmountUnits4,True,True,PASS,Publication artifacts
+Table values DuplicateScenario.RawSignedGBP,True,True,PASS,Publication artifacts
+Table values DuplicateScenario.SalesGBP,True,True,PASS,Publication artifacts
+Table values DuplicateScenario.CancellationGBP,True,True,PASS,Publication artifacts
+Table values DuplicateScenario.BalanceGBP,True,True,PASS,Publication artifacts
+Table values DuplicateScenario.SalesInvoiceIDs,True,True,PASS,Publication artifacts
+Table values DuplicateScenario.CustomerSalesIDs,True,True,PASS,Publication artifacts
+Table values DuplicateScenario.ReviewRows,True,True,PASS,Publication artifacts
+Table row count ProductDictionary,4070,4070,PASS,Publication artifacts
+Identifier values ProductDictionary.StockCode,True,True,PASS,Publication artifacts
+Table values ProductDictionary.DescriptionVariantCount,True,True,PASS,Publication artifacts
+Table values ProductDictionary.TrimmedVariantCount,True,True,PASS,Publication artifacts
+Table values ProductDictionary.NormalizedVariantCount,True,True,PASS,Publication artifacts
+Table values ProductDictionary.SourceRows,True,True,PASS,Publication artifacts
+Table row count SpecialOperations,16,16,PASS,Publication artifacts
+Identifier values SpecialOperations.StockCode,True,True,PASS,Publication artifacts
+Table values SpecialOperations.Rows,True,True,PASS,Publication artifacts
+Table values SpecialOperations.SignedGBP,True,True,PASS,Publication artifacts
+Table values SpecialOperations.SourceRowExample,True,True,PASS,Publication artifacts
+Table row count Customers,4334,4334,PASS,Publication artifacts
+Identifier values Customers.CustomerID,True,True,PASS,Publication artifacts
+Table values Customers.SalesRows,True,True,PASS,Publication artifacts
+Table values Customers.SalesGBP,True,True,PASS,Publication artifacts
+Table values Customers.SalesInvoiceIDs,True,True,PASS,Publication artifacts
+Table row count DashboardData,314,314,PASS,Publication artifacts
+Table values DashboardData.SalesGBP,True,True,PASS,Publication artifacts
+Table values DashboardData.CancellationGBP,True,True,PASS,Publication artifacts
+Table values DashboardData.SalesRows,True,True,PASS,Publication artifacts
+Table values DashboardData.KnownCustomerSalesRows,True,True,PASS,Publication artifacts
+Table values DashboardData.SalesInvoiceIDs,True,True,PASS,Publication artifacts
+Table values DashboardData.ReviewRows,True,True,PASS,Publication artifacts
+XLSX archive CRC,,,PASS,Publication artifacts
+Embedded query connection names,"['qMissingValues', 'qRawSource', 'qSourceCheck', 'qTypedSource']","['qMissingValues', 'qRawSource', 'qSourceCheck', 'qTypedSource']",PASS,Publication artifacts
+Embedded formula names,"['qMissingValues', 'qRawSource', 'qSourceCheck', 'qTypedSource']","['qMissingValues', 'qRawSource', 'qSourceCheck', 'qTypedSource']",PASS,Publication artifacts
+Exact M export qSourceCheck,"let
+    Ayarlar = Excel.CurrentWorkbook(){[Name=""tblSource""]}[Content]{0},
+    DosyaYolu = Text.From(Ayarlar[SourcePath]),
+
+    Kaynak = Excel.Workbook(
+        File.Contents(DosyaYolu),
+        null,
+        true
+    ),
+
+    Sayfa = Kaynak{[Item=""Online Retail"", Kind=""Sheet""]}[Data],
+
+    Basliklar = Table.PromoteHeaders(
+        Sayfa,
+        [PromoteAllScalars=true]
+    ),
+
+    Kontrol = #table(
+        {""Kontrol"", ""Sonuç""},
+        {
+            {""Veri satırı sayısı"", Table.RowCount(Basliklar)},
+            {""Sütun sayısı"", Table.ColumnCount(Basliklar)}
+        }
+    )
+in
+    Kontrol
+","let
+    Ayarlar = Excel.CurrentWorkbook(){[Name=""tblSource""]}[Content]{0},
+    DosyaYolu = Text.From(Ayarlar[SourcePath]),
+
+    Kaynak = Excel.Workbook(
+        File.Contents(DosyaYolu),
+        null,
+        true
+    ),
+
+    Sayfa = Kaynak{[Item=""Online Retail"", Kind=""Sheet""]}[Data],
+
+    Basliklar = Table.PromoteHeaders(
+        Sayfa,
+        [PromoteAllScalars=true]
+    ),
+
+    Kontrol = #table(
+        {""Kontrol"", ""Sonuç""},
+        {
+            {""Veri satırı sayısı"", Table.RowCount(Basliklar)},
+            {""Sütun sayısı"", Table.ColumnCount(Basliklar)}
+        }
+    )
+in
+    Kontrol
+",PASS,Publication artifacts
+Exact M export qRawSource,"let
+    Ayarlar = Excel.CurrentWorkbook(){[Name=""tblSource""]}[Content]{0},
+    DosyaYolu = Text.From(Ayarlar[SourcePath]),
+
+    Kaynak = Excel.Workbook(
+        File.Contents(DosyaYolu),
+        null,
+        true
+    ),
+
+    Sayfa = Kaynak{[Item=""Online Retail"", Kind=""Sheet""]}[Data],
+
+    Basliklar = Table.PromoteHeaders(
+        Sayfa,
+        [PromoteAllScalars=true]
+    ),
+
+    KaynakSatiri = Table.AddIndexColumn(
+        Basliklar,
+        ""SourceRow"",
+        2,
+        1,
+        Int64.Type
+    )
+in
+    KaynakSatiri
+","let
+    Ayarlar = Excel.CurrentWorkbook(){[Name=""tblSource""]}[Content]{0},
+    DosyaYolu = Text.From(Ayarlar[SourcePath]),
+
+    Kaynak = Excel.Workbook(
+        File.Contents(DosyaYolu),
+        null,
+        true
+    ),
+
+    Sayfa = Kaynak{[Item=""Online Retail"", Kind=""Sheet""]}[Data],
+
+    Basliklar = Table.PromoteHeaders(
+        Sayfa,
+        [PromoteAllScalars=true]
+    ),
+
+    KaynakSatiri = Table.AddIndexColumn(
+        Basliklar,
+        ""SourceRow"",
+        2,
+        1,
+        Int64.Type
+    )
+in
+    KaynakSatiri
+",PASS,Publication artifacts
+Exact M export qMissingValues,"let
+    Alanlar = {
+        ""InvoiceNo"", ""StockCode"", ""Description"",
+        ""Quantity"", ""InvoiceDate"", ""UnitPrice"",
+        ""CustomerID"", ""Country""
+    },
+
+    Kaynak = Table.SelectColumns(qRawSource, Alanlar),
+    SatirSayisi = Table.RowCount(Kaynak),
+
+    Kayitlar = List.Transform(
+        Alanlar,
+        (Alan) => [
+            Field = Alan,
+            MissingRows =
+                SatirSayisi -
+                List.NonNullCount(Table.Column(Kaynak, Alan))
+        ]
+    ),
+
+    Sonuc = Table.FromRecords(Kayitlar),
+
+    Tipler = Table.TransformColumnTypes(
+        Sonuc,
+        {
+            {""Field"", type text},
+            {""MissingRows"", Int64.Type}
+        }
+    )
+in
+    Tipler
+","let
+    Alanlar = {
+        ""InvoiceNo"", ""StockCode"", ""Description"",
+        ""Quantity"", ""InvoiceDate"", ""UnitPrice"",
+        ""CustomerID"", ""Country""
+    },
+
+    Kaynak = Table.SelectColumns(qRawSource, Alanlar),
+    SatirSayisi = Table.RowCount(Kaynak),
+
+    Kayitlar = List.Transform(
+        Alanlar,
+        (Alan) => [
+            Field = Alan,
+            MissingRows =
+                SatirSayisi -
+                List.NonNullCount(Table.Column(Kaynak, Alan))
+        ]
+    ),
+
+    Sonuc = Table.FromRecords(Kayitlar),
+
+    Tipler = Table.TransformColumnTypes(
+        Sonuc,
+        {
+            {""Field"", type text},
+            {""MissingRows"", Int64.Type}
+        }
+    )
+in
+    Tipler
+",PASS,Publication artifacts
+Exact M export qTypedSource,"let
+    Kaynak = qRawSource,
+
+    HamFatura = Table.DuplicateColumn(
+        Kaynak,
+        ""InvoiceNo"",
+        ""InvoiceNo_Raw""
+    ),
+
+    HamUrun = Table.DuplicateColumn(
+        HamFatura,
+        ""StockCode"",
+        ""StockCode_Raw""
+    ),
+
+    HamMusteri = Table.DuplicateColumn(
+        HamUrun,
+        ""CustomerID"",
+        ""CustomerID_Raw""
+    ),
+
+    Tipler = Table.TransformColumnTypes(
+        HamMusteri,
+        {
+            {""InvoiceNo"", type text},
+            {""StockCode"", type text},
+            {""CustomerID"", type text},
+            {""Quantity"", type number},
+            {""UnitPrice"", type number},
+            {""InvoiceDate"", type datetime},
+            {""Country"", type text}
+        },
+        ""en-GB""
+    )
+in
+    Tipler
+","let
+    Kaynak = qRawSource,
+
+    HamFatura = Table.DuplicateColumn(
+        Kaynak,
+        ""InvoiceNo"",
+        ""InvoiceNo_Raw""
+    ),
+
+    HamUrun = Table.DuplicateColumn(
+        HamFatura,
+        ""StockCode"",
+        ""StockCode_Raw""
+    ),
+
+    HamMusteri = Table.DuplicateColumn(
+        HamUrun,
+        ""CustomerID"",
+        ""CustomerID_Raw""
+    ),
+
+    Tipler = Table.TransformColumnTypes(
+        HamMusteri,
+        {
+            {""InvoiceNo"", type text},
+            {""StockCode"", type text},
+            {""CustomerID"", type text},
+            {""Quantity"", type number},
+            {""UnitPrice"", type number},
+            {""InvoiceDate"", type datetime},
+            {""Country"", type text}
+        },
+        ""en-GB""
+    )
+in
+    Tipler
+",PASS,Publication artifacts
+Embedded query table count,2,2,PASS,Publication artifacts
+Local Desktop presentation path removed,False,False,PASS,Publication artifacts
+Reference refresh check count,19,19,PASS,Python reference refresh
+Reference refresh failures,0,0,PASS,Python reference refresh
+M files parsed,24,24,PASS,M syntax only
+M syntax failures,0,0,PASS,M syntax only
+M parser evidence matches current files,True,True,PASS,M syntax only
+Preserved query package,True,True,PASS,Publication artifacts
+Review register rows,232181,232181,PASS,Review export
+Review register unique RecordID,232181,232181,PASS,Review export
+Review register source membership,0,0,PASS,Review export
+Review register flagged records,0,0,PASS,Review export
+One-page Client_Handover.pdf,1,1,PASS,Publication artifacts
+One-page Dashboard_Reference.pdf,1,1,PASS,Publication artifacts
+Broken relative documentation links,[],[],PASS,Publication artifacts
+Manifest hash mismatches,[],[],PASS,Publication artifacts
+No file exceeds GitHub regular limit,True,True,PASS,Publication artifacts
+No dependencies/caches/test XLSX in manifest,[],[],PASS,Publication artifacts
+No initial transfer helpers in manifest,[],[],PASS,Publication artifacts

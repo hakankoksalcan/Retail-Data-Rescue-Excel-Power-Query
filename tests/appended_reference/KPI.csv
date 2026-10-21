@@ -1,0 +1,17 @@
+﻿Metric,Value
+SourceRows,541910.0
+RawInvoiceIDs,25901.0
+RawSignedAmountGBP,9747754.934
+ReportableSalesGBP,10271440.063
+MerchandiseCancellationGBP,478724.18
+MerchandiseBalanceGBP,9792715.883
+EligibleSalesInvoiceIDs,19774.0
+SalesRows,527762.0
+KnownCustomerSalesRows,396341.0
+KnownCustomerRowCoverage,0.7509843452162149
+KnownCustomerAmountCoverage,0.8529547560287409
+KnownCustomerIDs,4334.0
+ReviewRows,232182.0
+ReviewSignedAmountGBP,3585138.48
+DuplicateExtraRows,5268.0
+DuplicateExtraSignedAmountGBP,21740.98

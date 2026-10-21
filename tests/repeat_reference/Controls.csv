@@ -1,0 +1,31 @@
+﻿Control,Expected,Actual,Status,Scope
+Unique source RecordID,541909,541909,PASS,Python reference
+Source rows preserved,541909,541909,PASS,Python reference
+Exactly one class per row,541909,541909,PASS,Python reference
+No unassigned class,0,0,PASS,Python reference
+Class amounts reconcile (integer units),97477479340,97477479340,PASS,Python reference
+Product dictionary join rows preserved,541909,541909,PASS,Python reference
+Product dictionary nonmissing matches,0,0,PASS,Python reference
+Monthly source rows reconcile,541909,541909,PASS,Python reference
+Monthly sales reconcile,10271433.063,10271433.063,PASS,Python reference
+Country sales reconcile,10271433.063,10271433.063000001,PASS,Python reference
+Product sales reconcile,10271433.063,10271433.063,PASS,Python reference
+Bridge closes to reporting scope,9792708.883,9792708.883,PASS,Python reference
+Duplicate scenario rows removed,5268,5268,PASS,Python reference
+Duplicate scenario amount delta (integer units),217409800,217409800,PASS,Python reference
+Original source SHA256,43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d,43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d,PASS,Python reference
+Baseline rows,541909,541909,PASS,Python reference
+Baseline invoice IDs,25900,25900,PASS,Python reference
+Baseline missing CustomerID,135080,135080,PASS,Python reference
+Baseline missing Description,1454,1454,PASS,Python reference
+Baseline duplicate groups,4879,4879,PASS,Python reference
+Baseline duplicate members,10147,10147,PASS,Python reference
+Baseline duplicate extras,5268,5268,PASS,Python reference
+Baseline C-prefix rows,9288,9288,PASS,Python reference
+Baseline non-C negative,1336,1336,PASS,Python reference
+Baseline zero prices,2515,2515,PASS,Python reference
+Baseline negative prices,2,2,PASS,Python reference
+Baseline multidescription codes,650,650,PASS,Python reference
+Baseline outer whitespace,113452,113452,PASS,Python reference
+Baseline raw amount units,97477479340,97477479340,PASS,Python reference
+Real Excel / Power Query execution and refresh,User runs Excel checklist,Desktop Excel unavailable in Linux environment,PENDING,Excel required

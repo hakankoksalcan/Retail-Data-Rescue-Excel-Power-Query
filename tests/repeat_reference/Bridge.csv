@@ -1,0 +1,6 @@
+﻿Step,ChangeGBP,BalanceGBP
+Raw signed transactions,9747747.934,9747747.934
+Separate SpecialOperation,44960.949,9792708.883
+Separate ZeroPriceAdjustment,0.0,9792708.883
+Separate UnresolvedReview,0.0,9792708.883
+Merchandise signed balance,0.0,9792708.883

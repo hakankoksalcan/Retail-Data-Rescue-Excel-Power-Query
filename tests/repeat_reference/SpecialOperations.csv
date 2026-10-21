@@ -1,0 +1,17 @@
+﻿StockCode,Category,Rows,SignedGBP,SourceRowExample
+AMAZONFEE,PlatformFee,34,-221520.5,14516
+B,AccountingAdjustment,3,-11062.06,299984
+BANK CHARGES,BankFee,37,-7175.639,4408
+C2,Logistics,144,6986.0,1425
+CRUK,Commission,16,-7933.43,317510
+D,Discount,77,-5696.22,143
+DOT,Logistics,710,206245.48,1816
+M,Manual,571,-68674.19,2241
+POST,Logistics,1256,66230.64,47
+S,Sample,63,-3049.39,14438
+gift_0001_10,Voucher,9,74.97,112444
+gift_0001_20,Voucher,10,167.05,44796
+gift_0001_30,Voucher,8,175.53,44727
+gift_0001_40,Voucher,3,100.7,38250
+gift_0001_50,Voucher,4,167.56,42059
+m,Manual,1,2.55,40385

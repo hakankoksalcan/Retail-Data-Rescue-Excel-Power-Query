@@ -1,0 +1,19 @@
+﻿Control,Expected,Actual,Status,Evidence,ToleranceGBP
+Source rows,541909,,PENDING,,0.0
+Raw invoice IDs,25900,,PENDING,,0.0
+Raw amount GBP,9747747.934,,PENDING,,0.0001
+Merchandise sales GBP,10271433.063,,PENDING,,0.0001
+Merchandise cancellations GBP,478724.18,,PENDING,,0.0001
+Merchandise balance GBP,9792708.883,,PENDING,,0.0001
+Eligible sales invoice IDs,19773,,PENDING,,0.0
+Duplicate extra rows,5268,,PENDING,,0.0
+Review rows,232181,,PENDING,,0.0
+qControls all statuses,PASS,,PENDING,,0.0
+Same-source refresh,Identical counts and amounts,,PENDING,,0.0
+TEST_ONLY source rows,541910,,PENDING,,0.0
+TEST_ONLY sales change GBP,7,,PENDING,,0.0001
+TEST_ONLY eligible sales invoice IDs,19774,,PENDING,,0.0
+TEST_ONLY cancellations,Unchanged,,PENDING,,0.0
+Country filter UK sales GBP,8747561.663,,PENDING,,0.0001
+Month chart and rank charts,"Visible, correct scopes",,PENDING,,0.0
+Restore raw source,Original path and ValidateBaseline TRUE,,PENDING,,0.0

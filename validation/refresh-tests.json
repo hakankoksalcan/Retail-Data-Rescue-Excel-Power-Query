@@ -1,0 +1,270 @@
+{
+  "test_only": true,
+  "synthetic_row": [
+    {
+      "InvoiceNo": "990001",
+      "StockCode": "85123A",
+      "Description": "WHITE HANGING HEART T-LIGHT HOLDER",
+      "Quantity": "2",
+      "InvoiceDate": "2011-12-09 13:00:00",
+      "UnitPrice": "3.5",
+      "CustomerID": "17850",
+      "Country": "United Kingdom"
+    }
+  ],
+  "added_source_row": 541911,
+  "test_file": "TEST_ONLY_Online_Retail_plus_one.xlsx",
+  "checks": [
+    {
+      "Control": "Same-source repeated totals",
+      "Expected": {
+        "SourceRows": 541909,
+        "RawInvoiceIDs": 25900,
+        "RawSignedAmountGBP": 9747747.934,
+        "ReportableSalesGBP": 10271433.063,
+        "MerchandiseCancellationGBP": 478724.18,
+        "MerchandiseBalanceGBP": 9792708.883,
+        "EligibleSalesInvoiceIDs": 19773,
+        "SalesRows": 527761,
+        "KnownCustomerSalesRows": 396340,
+        "KnownCustomerRowCoverage": 0.7509838733820802,
+        "KnownCustomerAmountCoverage": 0.8529546558171441,
+        "KnownCustomerIDs": 4334,
+        "ReviewRows": 232181,
+        "ReviewSignedAmountGBP": 3585131.48,
+        "DuplicateExtraRows": 5268,
+        "DuplicateExtraSignedAmountGBP": 21740.98
+      },
+      "Actual": {
+        "SourceRows": 541909,
+        "RawInvoiceIDs": 25900,
+        "RawSignedAmountGBP": 9747747.934,
+        "ReportableSalesGBP": 10271433.063,
+        "MerchandiseCancellationGBP": 478724.18,
+        "MerchandiseBalanceGBP": 9792708.883,
+        "EligibleSalesInvoiceIDs": 19773,
+        "SalesRows": 527761,
+        "KnownCustomerSalesRows": 396340,
+        "KnownCustomerRowCoverage": 0.7509838733820802,
+        "KnownCustomerAmountCoverage": 0.8529546558171441,
+        "KnownCustomerIDs": 4334,
+        "ReviewRows": 232181,
+        "ReviewSignedAmountGBP": 3585131.48,
+        "DuplicateExtraRows": 5268,
+        "DuplicateExtraSignedAmountGBP": 21740.98
+      },
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Same-source repeated class partitions",
+      "Expected": [
+        {
+          "TransactionClass": "MerchandiseSale",
+          "Rows": 527761,
+          "InvoiceIDs": 19773,
+          "AmountUnits4": 102714330630,
+          "SignedAmountGBP": 10271433.063,
+          "ReviewFlagRows": 226068
+        },
+        {
+          "TransactionClass": "MerchandiseCancellation",
+          "Rows": 8704,
+          "InvoiceIDs": 3422,
+          "AmountUnits4": -4787241800,
+          "SignedAmountGBP": -478724.18,
+          "ReviewFlagRows": 2572
+        },
+        {
+          "TransactionClass": "SpecialOperation",
+          "Rows": 2946,
+          "InvoiceIDs": 2769,
+          "AmountUnits4": -449609490,
+          "SignedAmountGBP": -44960.949,
+          "ReviewFlagRows": 1043
+        },
+        {
+          "TransactionClass": "ZeroPriceAdjustment",
+          "Rows": 1335,
+          "InvoiceIDs": 1335,
+          "AmountUnits4": 0,
+          "SignedAmountGBP": 0.0,
+          "ReviewFlagRows": 1335
+        },
+        {
+          "TransactionClass": "UnresolvedReview",
+          "Rows": 1163,
+          "InvoiceIDs": 805,
+          "AmountUnits4": 0,
+          "SignedAmountGBP": 0.0,
+          "ReviewFlagRows": 1163
+        }
+      ],
+      "Actual": [
+        {
+          "TransactionClass": "MerchandiseSale",
+          "Rows": 527761,
+          "InvoiceIDs": 19773,
+          "AmountUnits4": 102714330630,
+          "SignedAmountGBP": 10271433.063,
+          "ReviewFlagRows": 226068
+        },
+        {
+          "TransactionClass": "MerchandiseCancellation",
+          "Rows": 8704,
+          "InvoiceIDs": 3422,
+          "AmountUnits4": -4787241800,
+          "SignedAmountGBP": -478724.18,
+          "ReviewFlagRows": 2572
+        },
+        {
+          "TransactionClass": "SpecialOperation",
+          "Rows": 2946,
+          "InvoiceIDs": 2769,
+          "AmountUnits4": -449609490,
+          "SignedAmountGBP": -44960.949,
+          "ReviewFlagRows": 1043
+        },
+        {
+          "TransactionClass": "ZeroPriceAdjustment",
+          "Rows": 1335,
+          "InvoiceIDs": 1335,
+          "AmountUnits4": 0,
+          "SignedAmountGBP": 0.0,
+          "ReviewFlagRows": 1335
+        },
+        {
+          "TransactionClass": "UnresolvedReview",
+          "Rows": 1163,
+          "InvoiceIDs": 805,
+          "AmountUnits4": 0,
+          "SignedAmountGBP": 0.0,
+          "ReviewFlagRows": 1163
+        }
+      ],
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Repeat table KPI",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Repeat table Reconciliation",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Repeat table Monthly",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Repeat table Country",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Repeat table Product",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Repeat table ProductDictionary",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Repeat table Quality",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Repeat table DuplicateScenario",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Repeat table Bridge",
+      "Expected": true,
+      "Actual": true,
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Appended source row count",
+      "Expected": 541910,
+      "Actual": 541910,
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Raw amount increases GBP 7.0000",
+      "Expected": "7",
+      "Actual": "7.000",
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Sales amount increases GBP 7.0000",
+      "Expected": "7",
+      "Actual": "7.000",
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Cancellation unchanged",
+      "Expected": 478724.18,
+      "Actual": 478724.18,
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Sales invoice count increases one",
+      "Expected": 19774,
+      "Actual": 19774,
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Known-customer sales rows increases one",
+      "Expected": 396341,
+      "Actual": 396341,
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Duplicate extras unchanged",
+      "Expected": 5268,
+      "Actual": 5268,
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    },
+    {
+      "Control": "Raw source SHA256 unchanged",
+      "Expected": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "Actual": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "Status": "PASS",
+      "Scope": "Python reference refresh"
+    }
+  ],
+  "excel_refresh_status": "PENDING: repeat these steps in Excel",
+  "all_python_checks_passed": true
+}

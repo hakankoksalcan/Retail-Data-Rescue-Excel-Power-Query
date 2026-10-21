@@ -1,0 +1,10 @@
+﻿Metric,Hesap,Kapsam,Sınırlama
+ReportableSalesGBP,MerchandiseSale satırlarının AmountUnits4 toplamı /10000,Pozitif miktar/fiyat; özel işlemler ayrılmış; tam tekrarlar dahil,Ödeme veya muhasebe geliri değildir
+MerchandiseCancellationGBP,MerchandiseCancellation işaretli toplamının negatifi /10000,Ürün kapsamındaki C iptalleri,Fiziksel iade değildir; 9288 C kaydının hepsi dahil değil
+MerchandiseBalanceGBP,Satış tutarı - ürün iptal tutarı,Aynı ürün kapsamının işaretli dengesi,Net sales veya kâr olarak etiketlenmez
+EligibleSalesInvoiceIDs,Satış kapsamındaki farklı InvoiceNo sayısı,Satır sayısından ayrı,Satış kalemli fatura; ödeme/teslimat teyidi yok
+KnownCustomerRowCoverage,Bilinen CustomerID satış satırı / bütün satış satırları,Satır ağırlıklı kapsama,Tutar kapsamı ile aynı ölçü değildir
+KnownCustomerAmountCoverage,Bilinen CustomerID satış tutarı / bütün satış tutarı,Tutar ağırlıklı kapsama,Tam müşteri evrenini temsil ettiği varsayılmaz
+ReviewRows,NeedsReview=true farklı RecordID sayısı,Bayrakların OR birleşimi,Satış kapsamıyla örtüşür; dışlanan kayıt sayısı değildir
+RawSignedAmountGBP,Bütün kaynak Quantity × UnitPrice işaretli toplamı,Özel işlemler ve tekrarlar dahil,Kontrol toplamıdır
+DuplicateScenario,Ana sonuç ve her grupta ilk SourceRow korunmuş alternatif,Sekiz özgün alan tam eşitliği,Alternatif ana sonucu değiştirmez

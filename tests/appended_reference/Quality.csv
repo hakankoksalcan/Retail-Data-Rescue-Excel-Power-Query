@@ -1,0 +1,16 @@
+﻿Flag,Label,Kind,Rows,SourceRowExample,Definition
+HasMissingCustomer,Missing customer ID,review,135080,624.0,Customer ID null; sale remains eligible
+HasMissingDescription,Missing description,review,1454,624.0,Description null or whitespace-only text
+HasNonTextDescription,Non-text description,review,1,420393.0,Nonempty description is not text
+HasOuterWhitespace,Description outer whitespace,format,113452,12.0,Raw text differs from trimmed text
+IsExactDuplicateMember,Exact duplicate group member,review,10147,487.0,All eight raw fields equal; all group members
+IsDuplicateBeyondFirst,Exact duplicate beyond first,scenario,5268,519.0,SourceRow greater than group minimum
+IsDescriptionVariantDuplicate,Description-only duplicate candidate,review,4,199126.0,Seven other raw fields equal; descriptions differ
+HasMultipleDescriptions,Code with multiple descriptions,review,113466,2.0,Code has >1 nonblank raw text description
+IsNonCNegative,Negative quantity without C,review,1336,2408.0,Quantity < 0 and no C invoice prefix
+IsZeroPrice,Zero price,review,2515,624.0,UnitPrice == 0
+IsNegativePrice,Negative price,review,2,299985.0,UnitPrice < 0
+IsLargeAmount,Large absolute line amount,review,17,15018.0,abs(LineAmount) >= GBP 10000
+IsUnmappedCode,Unmapped nonstandard code,review,0,,Neither explicit code rule nor common merchandise format
+IsInvoicePatternException,Invoice pattern outside numeric/C,context,3,299984.0,Neither six digits nor C + six digits
+IsCancellationCode,C cancellation prefix,context,9288,143.0,InvoiceNo starts with uppercase C

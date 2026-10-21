@@ -1,0 +1,16 @@
+﻿Control,Expected,Actual,Status,Scope
+Unique source RecordID,541910,541910,PASS,Python reference
+Source rows preserved,541910,541910,PASS,Python reference
+Exactly one class per row,541910,541910,PASS,Python reference
+No unassigned class,0,0,PASS,Python reference
+Class amounts reconcile (integer units),97477549340,97477549340,PASS,Python reference
+Product dictionary join rows preserved,541910,541910,PASS,Python reference
+Product dictionary nonmissing matches,0,0,PASS,Python reference
+Monthly source rows reconcile,541910,541910,PASS,Python reference
+Monthly sales reconcile,10271440.063,10271440.063,PASS,Python reference
+Country sales reconcile,10271440.063,10271440.063000001,PASS,Python reference
+Product sales reconcile,10271440.063,10271440.063,PASS,Python reference
+Bridge closes to reporting scope,9792715.883,9792715.883,PASS,Python reference
+Duplicate scenario rows removed,5268,5268,PASS,Python reference
+Duplicate scenario amount delta (integer units),217409800,217409800,PASS,Python reference
+Real Excel / Power Query execution and refresh,User runs Excel checklist,Desktop Excel unavailable in Linux environment,PENDING,Excel required

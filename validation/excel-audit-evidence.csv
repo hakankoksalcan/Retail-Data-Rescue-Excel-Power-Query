@@ -1,0 +1,5 @@
+﻿Control,Expected,Actual,Status,Evidence
+Source rows,541909,541909,PASS,Uploaded Excel 2021 workbook cached Power Query results; user confirmed refresh
+Source columns,8,8,PASS,Uploaded Excel 2021 workbook cached Power Query results; user confirmed refresh
+Missing CustomerID,135080,135080,PASS,Uploaded Excel 2021 workbook cached Power Query results; user confirmed refresh
+Missing Description,1454,1454,PASS,Uploaded Excel 2021 workbook cached Power Query results; user confirmed refresh

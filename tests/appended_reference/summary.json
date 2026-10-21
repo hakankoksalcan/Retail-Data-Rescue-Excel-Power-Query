@@ -1,0 +1,180 @@
+{
+  "engine": "Python reference; Power Query execution not claimed",
+  "rules_version": "1.0",
+  "source_file": "TEST_ONLY_Online_Retail_plus_one.xlsx",
+  "sha256": "f48286d10fb48dc6a1bf62b8f3fda24786423f3f61574dee3abd9b07ed90189b",
+  "rows": 541910,
+  "totals": {
+    "SourceRows": 541910,
+    "RawInvoiceIDs": 25901,
+    "RawSignedAmountGBP": 9747754.934,
+    "ReportableSalesGBP": 10271440.063,
+    "MerchandiseCancellationGBP": 478724.18,
+    "MerchandiseBalanceGBP": 9792715.883,
+    "EligibleSalesInvoiceIDs": 19774,
+    "SalesRows": 527762,
+    "KnownCustomerSalesRows": 396341,
+    "KnownCustomerRowCoverage": 0.7509843452162149,
+    "KnownCustomerAmountCoverage": 0.8529547560287409,
+    "KnownCustomerIDs": 4334,
+    "ReviewRows": 232182,
+    "ReviewSignedAmountGBP": 3585138.48,
+    "DuplicateExtraRows": 5268,
+    "DuplicateExtraSignedAmountGBP": 21740.98
+  },
+  "classes": [
+    {
+      "TransactionClass": "MerchandiseSale",
+      "Rows": 527762,
+      "InvoiceIDs": 19774,
+      "AmountUnits4": 102714400630,
+      "SignedAmountGBP": 10271440.063,
+      "ReviewFlagRows": 226069
+    },
+    {
+      "TransactionClass": "MerchandiseCancellation",
+      "Rows": 8704,
+      "InvoiceIDs": 3422,
+      "AmountUnits4": -4787241800,
+      "SignedAmountGBP": -478724.18,
+      "ReviewFlagRows": 2572
+    },
+    {
+      "TransactionClass": "SpecialOperation",
+      "Rows": 2946,
+      "InvoiceIDs": 2769,
+      "AmountUnits4": -449609490,
+      "SignedAmountGBP": -44960.949,
+      "ReviewFlagRows": 1043
+    },
+    {
+      "TransactionClass": "ZeroPriceAdjustment",
+      "Rows": 1335,
+      "InvoiceIDs": 1335,
+      "AmountUnits4": 0,
+      "SignedAmountGBP": 0.0,
+      "ReviewFlagRows": 1335
+    },
+    {
+      "TransactionClass": "UnresolvedReview",
+      "Rows": 1163,
+      "InvoiceIDs": 805,
+      "AmountUnits4": 0,
+      "SignedAmountGBP": 0.0,
+      "ReviewFlagRows": 1163
+    }
+  ],
+  "checks": [
+    {
+      "Control": "Unique source RecordID",
+      "Expected": 541910,
+      "Actual": 541910,
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "Source rows preserved",
+      "Expected": 541910,
+      "Actual": 541910,
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "Exactly one class per row",
+      "Expected": 541910,
+      "Actual": 541910,
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "No unassigned class",
+      "Expected": 0,
+      "Actual": 0,
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "Class amounts reconcile (integer units)",
+      "Expected": 97477549340,
+      "Actual": 97477549340,
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "Product dictionary join rows preserved",
+      "Expected": 541910,
+      "Actual": 541910,
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "Product dictionary nonmissing matches",
+      "Expected": 0,
+      "Actual": 0,
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "Monthly source rows reconcile",
+      "Expected": 541910,
+      "Actual": 541910,
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "Monthly sales reconcile",
+      "Expected": 10271440.063,
+      "Actual": 10271440.063,
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "Country sales reconcile",
+      "Expected": 10271440.063,
+      "Actual": 10271440.063000001,
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "Product sales reconcile",
+      "Expected": 10271440.063,
+      "Actual": 10271440.063,
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "Bridge closes to reporting scope",
+      "Expected": 9792715.883,
+      "Actual": 9792715.883,
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "Duplicate scenario rows removed",
+      "Expected": 5268,
+      "Actual": 5268,
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "Duplicate scenario amount delta (integer units)",
+      "Expected": 217409800,
+      "Actual": 217409800,
+      "Status": "PASS",
+      "Scope": "Python reference"
+    },
+    {
+      "Control": "Real Excel / Power Query execution and refresh",
+      "Expected": "User runs Excel checklist",
+      "Actual": "Desktop Excel unavailable in Linux environment",
+      "Status": "PENDING",
+      "Scope": "Excel required"
+    }
+  ],
+  "price_scale": 10000,
+  "tolerance_gbp": 0.0001,
+  "exact_duplicate_groups": 4879,
+  "date_min": "2010-12-01T08:26:00",
+  "date_max": "2011-12-09T13:00:00",
+  "built_at_utc": "2026-10-21T12:00:37.344999+00:00"
+}

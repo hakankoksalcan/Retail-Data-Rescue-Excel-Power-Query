@@ -1,0 +1,174 @@
+{
+  "engine": "@microsoft/powerquery-parser 2.0.0",
+  "scope": "Syntax only; not semantic evaluation or Excel refresh",
+  "results": [
+    {
+      "file": "power_query/embedded/qMissingValues.pq",
+      "sha256": "e53b127830877b7c6922ddc7175498a287a21fa3b6d1bed29fad617b1ebba4eb",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/embedded/qRawSource.pq",
+      "sha256": "09936cdce925060c0967b451387bcc1f1f6051c59f4cb2b200bd6e73598493a0",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/embedded/qSourceCheck.pq",
+      "sha256": "d8df486c484cc18352c1f2783feb403589a69c0261c840c945bf736a4056714d",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/embedded/qTypedSource.pq",
+      "sha256": "d559f96d8e6b21c9986d62018e543815b3202957e2b24635d523a06ca59011e9",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/fnRetailModel.pq",
+      "sha256": "d6e644645ebdc3c605def5135c3c468f0c39e10ec7761be026a8ec661b9e153e",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qBeforeAfter.pq",
+      "sha256": "358bfd8691558441187a3a6fd2d3a18072223c4ea52d6edb97296fae5fdc7ca2",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qBridge.pq",
+      "sha256": "1e78e36383b51be072e49e44c08b5a25ad02b41784502bbdab0b41108622649f",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qControls.pq",
+      "sha256": "43805eae13f818526fc0e895d8c335e935d757dca052d2fc458bc18acc149a13",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qCountry.pq",
+      "sha256": "4ab357f2077850bd1cdf222cf3933b1b54c1b76e7b8bf9c3e0dbfa5dd412e0df",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qCustomers.pq",
+      "sha256": "3f10f7ba1627518c83a15e9d71f33c2c0c6247cb9c59df7d37c2fc5a81afcca8",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qDashboardData.pq",
+      "sha256": "9c7175aaa9cb181ef9aa02eed2ba73a2b4426a31cd780a4c2f9d16b42e803fb6",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qDuplicateScenario.pq",
+      "sha256": "51df8fd2bb61ff4294261af76d0760a4f308ea41cd77408786df52e40bde5d19",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qFacts.pq",
+      "sha256": "6b7b7a77bf1563ca1ba1980d5af8decb4afd249239e45a5fc6dece62ecb26d13",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qKPI.pq",
+      "sha256": "f9ea72904316d587af9d5fb6a378e72c39d41cd2ceb73984042676b8573208c0",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qModel.pq",
+      "sha256": "87c170d5beeb80697d170f0419cc4b8d4c03e88a33647d7d5b96b3c785d933e8",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qMonthly.pq",
+      "sha256": "6e8b507d718fcb039a2597aa5b188c231a41179dbbcfe1de7db66df1f65619e3",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qProduct.pq",
+      "sha256": "d62bb8cae77eb81e0932ba105205d4cec511dd52012edd2a3e7ee9a71109a8b0",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qProductDictionary.pq",
+      "sha256": "b51162222d6afe90d8d3a2841f97807c5a820a27199333f28ca41765d45dcc53",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qQuality.pq",
+      "sha256": "59b780eeae07419aa47f912dc5d5ecef28df5072fd40782c6ee85beb65d4f9ad",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qReconciliation.pq",
+      "sha256": "b3bef9c19c6f4b239f30a03f05ad95b8b1792f819294b696091ebebc4c7bda9c",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qRefreshInfo.pq",
+      "sha256": "fc0e581fba59fb5e6d9bc8724c3268f551fe1abf19be5d4e680fb234528b4433",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qReviewExamples.pq",
+      "sha256": "489d6f901a7543d7a368f01ea08a3da05218cbf1cf5534c55327c0cab7e90950",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qReviewRecords.pq",
+      "sha256": "ff56cb79ad8e9f5981bf4577f730583da5476e796624ce674531cd5e9b01d81f",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    },
+    {
+      "file": "power_query/qSpecialOperations.pq",
+      "sha256": "40731b16ab1ceeca359c22122ce00740508a91a002b6039159916ad4cd9c282a",
+      "status": "PASS",
+      "stage": "Parse",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "retail-data-rescue-validation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Syntax validation for published Power Query sources; not an M runtime",
+  "scripts": {
+    "validate:m": "node scripts/validate_m.cjs"
+  },
+  "devDependencies": {
+    "@microsoft/powerquery-parser": "2.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

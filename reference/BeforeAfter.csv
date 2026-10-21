@@ -1,0 +1,13 @@
+﻿RecordID,SourceRow,InvoiceNo_Raw,StockCode_Raw,Description_Raw,DescriptionTrim,CustomerID_Raw,CustomerID,TransactionClass,ReviewReasons,LineAmount
+Online Retail.xlsx|Online Retail|000000012,12,536367,22745,POPPY'S PLAYHOUSE BEDROOM ,POPPY'S PLAYHOUSE BEDROOM,13047,13047,MerchandiseSale,,12.6
+Online Retail.xlsx|Online Retail|000000487,487,536409,22111,SCOTTIE DOG HOT WATER BOTTLE,SCOTTIE DOG HOT WATER BOTTLE,17908,17908,MerchandiseSale,Exact duplicate group member,4.95
+Online Retail.xlsx|Online Retail|000000541,541,536409,22111,SCOTTIE DOG HOT WATER BOTTLE,SCOTTIE DOG HOT WATER BOTTLE,17908,17908,MerchandiseSale,Exact duplicate group member,4.95
+Online Retail.xlsx|Online Retail|000000624,624,536414,22139,,,,,UnresolvedReview,Missing customer ID; Missing description; Code with multiple descriptions; Zero price; Unresolved transaction class,0.0
+Online Retail.xlsx|Online Retail|000001445,1445,536544,21773,DECORATIVE ROSE BATHROOM BOTTLE,DECORATIVE ROSE BATHROOM BOTTLE,,,MerchandiseSale,Missing customer ID,2.51
+Online Retail.xlsx|Online Retail|000009304,9304,537197,22841,ROUND CAKE TIN VINTAGE GREEN,ROUND CAKE TIN VINTAGE GREEN,12647,12647,UnresolvedReview,Zero price; Unresolved transaction class,0.0
+Online Retail.xlsx|Online Retail|000199126,199126,554084,23298,"BUNTING , SPOTTY ","BUNTING , SPOTTY",12909,12909,MerchandiseSale,Description-only duplicate candidate; Code with multiple descriptions,14.85
+Online Retail.xlsx|Online Retail|000199146,199146,554084,23298,SPOTTY BUNTING,SPOTTY BUNTING,12909,12909,MerchandiseSale,Description-only duplicate candidate; Code with multiple descriptions,14.85
+Online Retail.xlsx|Online Retail|000299985,299985,A563186,B,Adjust bad debt,Adjust bad debt,,,SpecialOperation,Missing customer ID; Negative price; Large absolute line amount,-11062.06
+Online Retail.xlsx|Online Retail|000420393,420393,572891,23343,20713,,,,UnresolvedReview,Missing customer ID; Non-text description; Code with multiple descriptions; Negative quantity without C; Zero price; Unresolved transaction class,0.0
+Online Retail.xlsx|Online Retail|000540423,540423,581483,23843,"PAPER CRAFT , LITTLE BIRDIE","PAPER CRAFT , LITTLE BIRDIE",16446,16446,MerchandiseSale,Large absolute line amount,168469.6
+Online Retail.xlsx|Online Retail|000540424,540424,C581484,23843,"PAPER CRAFT , LITTLE BIRDIE","PAPER CRAFT , LITTLE BIRDIE",16446,16446,MerchandiseCancellation,Large absolute line amount,-168469.6

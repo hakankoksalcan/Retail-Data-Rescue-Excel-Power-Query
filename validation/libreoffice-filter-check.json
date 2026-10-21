@@ -1,0 +1,49 @@
+{
+  "country": "United Kingdom",
+  "start_month": "2011-01",
+  "end_month": "2011-03",
+  "checks": [
+    {
+      "Control": "Filtered workbook formula B9",
+      "Expected": 1538974.69,
+      "Actual": 1538974.69,
+      "Status": "PASS",
+      "Scope": "LibreOffice recalculation; not Excel Power Query"
+    },
+    {
+      "Control": "Filtered workbook formula F9",
+      "Expected": 104879.87,
+      "Actual": 104879.87,
+      "Status": "PASS",
+      "Scope": "LibreOffice recalculation; not Excel Power Query"
+    },
+    {
+      "Control": "Filtered workbook formula J9",
+      "Expected": 1434094.8199999998,
+      "Actual": 1434094.82,
+      "Status": "PASS",
+      "Scope": "LibreOffice recalculation; not Excel Power Query"
+    },
+    {
+      "Control": "Filtered workbook formula B13",
+      "Expected": 3259,
+      "Actual": 3259,
+      "Status": "PASS",
+      "Scope": "LibreOffice recalculation; not Excel Power Query"
+    },
+    {
+      "Control": "Filtered workbook formula F13",
+      "Expected": 0.6775639067114777,
+      "Actual": 0.677563906711478,
+      "Status": "PASS",
+      "Scope": "LibreOffice recalculation; not Excel Power Query"
+    },
+    {
+      "Control": "Filtered workbook formula J13",
+      "Expected": 42749,
+      "Actual": 42749,
+      "Status": "PASS",
+      "Scope": "LibreOffice recalculation; not Excel Power Query"
+    }
+  ]
+}

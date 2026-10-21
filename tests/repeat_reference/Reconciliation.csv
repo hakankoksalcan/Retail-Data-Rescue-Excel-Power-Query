@@ -1,0 +1,6 @@
+﻿TransactionClass,Rows,InvoiceIDs,AmountUnits4,SignedAmountGBP,ReviewFlagRows
+MerchandiseSale,527761,19773,102714330630,10271433.063,226068
+MerchandiseCancellation,8704,3422,-4787241800,-478724.18,2572
+SpecialOperation,2946,2769,-449609490,-44960.949,1043
+ZeroPriceAdjustment,1335,1335,0,0.0,1335
+UnresolvedReview,1163,805,0,0.0,1163

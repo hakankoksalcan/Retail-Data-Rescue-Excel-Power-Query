@@ -1,0 +1,29 @@
+{
+  "checked_at_utc": "2026-10-11T08:27:41.002931+00:00",
+  "files": [
+    {
+      "file": "raw/online-retail.zip",
+      "source": "https://archive.ics.uci.edu/static/public/352/online+retail.zip",
+      "sha256": "f5385cbb54bbebf7196389109c6b0621faab0c304e3702548165e71c84aede8b",
+      "bytes": 23715478
+    },
+    {
+      "file": "reports/source-page.html",
+      "source": "https://archive.ics.uci.edu/dataset/352/online+retail",
+      "sha256": "55e8fd57ac052ac140ba58bfaf205c3eeb5c48d4e9bc8fc72d61cad1bb576f62",
+      "bytes": 174302
+    },
+    {
+      "file": "reports/uci-metadata.json",
+      "source": "https://archive.ics.uci.edu/api/dataset?id=352",
+      "sha256": "9b1a75b4ee044da8b2f108c31acf6ebf3fe5eddce75a1fe03032c6781b80f2e1",
+      "bytes": 4101
+    },
+    {
+      "file": "raw/Online Retail.xlsx",
+      "archive_member": "Online Retail.xlsx",
+      "sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "bytes": 23715344
+    }
+  ]
+}
